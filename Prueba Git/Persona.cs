@@ -14,7 +14,7 @@ namespace Prueba_Git
 
         public string Saludar()
         {
-            return $"hola mi nombre es {Nombre} y mi apellido es {Apellido}";
+            return $"Hola mi nombre es {Nombre} y mi apellido es {Apellido}";
         }
     }
 }
