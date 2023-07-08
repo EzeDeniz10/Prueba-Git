@@ -4,7 +4,18 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hola, Mundo!");
+            var persona = new Persona()
+            {
+                Nombre = " Ezequiel",
+                Apellido = "Deniz",
+            };
+                var saludo = persona.Saludar();
+            Console.WriteLine(saludo);
+          
+
         }
     }
+
 }
+            
+            
